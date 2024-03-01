@@ -137,7 +137,7 @@ a, h3.article-title a:hover {
 }
 
 .dark a, .dark h3.article-title a:hover {
-    color: #433333;
+    color: #1a0f0f;
 }
 
 .dark h3, .dark h4 {
@@ -230,6 +230,24 @@ p {
     box-shadow: 0 0 0 0.2rem #E94C4C;
 }
 
+.dark .search-header {
+    background-color: #CBCCB7;
+}
+
+#search-box:active {
+    transform: none;
+    border-color:transparent;
+    box-shadow:none;
+}
+
+.dark #search-query {
+    background-color: #C62336;
+}
+
+.dark .search-modal {
+    background-color: #CBCCB7;
+}
+
 .btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus {
     background-color: #E94C4C;
     transform: none;
@@ -248,6 +266,10 @@ p {
 .dark .experience .text-muted {
     color: #3E3131 !important;
     font-family: "Kosugi Maru", Helvetica, Arial;
+}
+
+.dark .text-muted {
+    color: rgba(37, 6, 6, 0.69) !important;
 }
 
 .dark .experience .card-text {
