@@ -90,6 +90,10 @@ body.dark:hover {
     text-decoration: none;
 }
 
+.dark .article-style a {
+    text-decoration:underline;
+}
+
 .dark .article-style a:hover {
     transition: none;
     color: #3E3131;

@@ -37,6 +37,7 @@ categories:
 
 Lately I've spent this summer aimlessly flipping through PDFs of guides on programming and exploitation as well as diving into (what is probably my 5th time) CS50 to revisit the basics and learn the foundation needed to break into this mysterious field. After watching countless videos and reading hundreds of articles every night, though, I find myself getting distracted and off track jumping from resource to resource and book to article, barely getting anywhere.
 <br/>
+
 So after all that time spent, here I'll lay out a structured guide of resources and websites to keep me on track to where I need to be to get to a point of understanding CTFs and overall application security better. Hopefully it may reach some of you guys who may also be bitterly prone to distractions and hopping from guide to guide.
 <br/>
 
@@ -85,5 +86,6 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [picoCTF](https://picoctf.com/). High school based CTF but also fun for beginners as well. Also great in exploring what topics you may be specifically interested in.
 * [HackNet](https://store.steampowered.com/app/365450/Hacknet/), just a really fun hacking simulator, one of the few accurate ones out there as well.
 * [Don't forget to check for upcoming CTFs at ctftime.org!](http://ctftime.org/)
-<br/><br/><br/>
+<br/>
+
 Realistically, you could approach any of these resources in any order you prefer depending on your level of experience. This, though, provides to me at least a more structured and streamlined way of learning security concepts in a progressing manner. I hope this also helps future readers interested in also breaking into the field. This list may be edited in the future as needed.
