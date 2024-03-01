@@ -10,14 +10,14 @@ backend:
   branch: main 
 
 publish_mode: editorial_workflow
-media_folder: "static/uploads"
-public_folder: "static/uploads"
+media_folder: "/uploads"
+public_folder: "/uploads"
 site_url: https://brilliant-empanada-4f0bb9.netlify.app
 display_url: https://brilliant-empanada-4f0bb9.netlify.app
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/post'
+    folder: 'content/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
