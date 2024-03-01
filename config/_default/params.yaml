@@ -18,12 +18,12 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'Hosting all publications, guides, writeups, and projects from Noodulz.'
+    twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-D1493M71RF'
     baidu_tongji: ''
-    google_tag_manager: ''
+    google_tag_manager: 'GT-57ZVC6HD'
     microsoft_clarity: ''
   verification:
     google: ''
@@ -39,7 +39,7 @@ header:
     show_language: false
     show_day_night: false
     show_search: true
-    highlight_active_link: true
+    highlight_active_link: false
 
 # Site footer
 
@@ -59,7 +59,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: ''
     content_dir: content
     branch: main
   avatar:
