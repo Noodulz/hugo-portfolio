@@ -19,3 +19,14 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = " font-src cdnjs.cloudflare.com fonts.gstatic.com noodulz.xyz"
+    X-Content-Type-Options = "nosniff"
+    Permissions-Policy= " midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=()"
+    Referrer-Policy = "strict-origin-when-cross-origin"
