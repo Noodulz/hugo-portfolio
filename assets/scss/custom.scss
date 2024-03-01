@@ -212,15 +212,28 @@ p {
     background-color: #E94C4C !important;
 }
 
-.btn.btn-sm, .btn-group-sm:hover > .btn:hover {
+
+
+.btn.btn-sm, .btn-group-sm > .btn:hover {
     padding: 5px 0.4rem;
     font-size: 14px;
     border-radius: 0.2rem;
     background-color:transparent;
 }
 
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: #E94C4C;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active:focus {
     box-shadow: 0 0 0 0.2rem #E94C4C;
+}
+
+.btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus {
+    background-color: #E94C4C;
+    transform: none;
+    text-decoration: none;    
 }
 
 .dark .experience .card-text p {
