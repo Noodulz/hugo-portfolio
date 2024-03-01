@@ -1,0 +1,16 @@
+backend:
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+  name: git-gateway
+  branch: main 
+
+publish_mode: editorial_workflow
+media_folder: "static/uploads"
+public_folder: "static/uploads"
+site_url: https://brilliant-empanada-4f0bb9.netlify.app
+display_url: https://brilliant-empanada-4f0bb9.netlify.app
