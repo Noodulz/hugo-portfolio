@@ -1,0 +1,320 @@
+ article {
+    display: block;
+    background-color: #CBCCB7;
+ }
+ 
+ .dark .home-section {
+    background: #CBCCB7;
+    padding-top: 1rem;
+}
+
+body.dark {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+}
+
+body.dark:hover {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+    transition:none;
+}
+
+.dark .author-card .card-title, .dark .author-card .card-title a {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+}
+
+.page-body {
+    flex-grow: 1;
+    background-color: #CBCCB7;
+}
+
+.dark .author-card .card-subtitle {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+}
+
+.dark ul.network-icon:hover {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    transition: none;
+    color: #3E3131;
+}
+
+.card-simple .article-title, .media.stream-item .article-title {
+    font-size: 1.2rem;
+    font-family: "Kosugi Maru";
+}
+
+.card.h4 .card-text.h4 {
+    padding: 0.75rem 1rem;
+    color: blue;
+}
+
+.dark .article-title a {
+    color: #3E3131;
+}
+
+.dark .article-title a:hover {
+    color: #5d5151;
+}
+
+.dark a strong:hover {
+    color: #3E3131;
+}
+
+.dark a.summary-link {
+  color: #3E3131;
+  text-decoration: none;
+  transition: none;
+}
+
+.dark a.summary-link:hover {
+    color: #5d5151;
+    text-decoration: none;
+    transition: none;
+}
+
+.article-style:hover {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    transition: none;
+    text-decoration: none;
+}
+
+.dark .article-style a:hover {
+    transition: none;
+    color: #3E3131;
+    text-decoration: underline;
+}
+
+.dark .article-metadata a {
+    color: #181487;
+}
+
+.dark .article-metadata a:hover {
+    color: #181487;
+}
+
+a, h3.article-title a:hover {
+    color: #5d5151;
+    text-decoration: none;
+    transition: none;
+}
+
+.dark .article-metadata {
+    color: #301F9A;
+}
+
+.dark .badge-light {
+    color: rgb(241, 223, 223);
+    background: #181487;
+}
+
+.article-title a {
+    color: #3E3131;
+    transition: color 0.6s ease;
+      transition-property: color;
+      transition-duration: 0.6s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+  }
+
+.dark .home-section:nth-of-type(2n) {
+    background: #CBCCB7;
+}
+
+.dark a, .dark h3.article-title a:hover {
+    color: #433333;
+}
+
+.dark h3 {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+}
+
+.card .card-text a {
+    color: #3E3131;
+}
+
+.dark .card-text p {
+    color: #4a4040;
+}
+
+.btn-outline-primary {
+    color: #E94C4C;
+    border-color: #E94C4C;
+}
+
+.dark h2 {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+}
+
+.dark .page-subtitle {
+    color: rgba(74, 60, 60, 0.88);
+}
+
+.btn-outline-primary:hover {
+    color: #E94C4C;
+    border-color: #E94C4C;
+}
+
+.card .btn:hover {
+    background-color: #E94C4C;
+}
+
+.card .card-text a:hover {
+    color: #3E3131;
+    
+}
+
+.dark a:hover {
+    color: #5d5151;
+}
+
+.page-footer {
+    background-color: #CBCCB7;
+}
+
+p {
+    color: #3E3131;
+}
+
+.card {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #CBCCB7;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-out;
+    font-family: "Kosugi Maru";
+}
+
+.btn-primary {
+    background-color: #E94C4C;
+    font-family: "Kosugi Maru";
+    border-color: #E94C4C;
+}
+
+.btn-toolbar .btn.btn-primary.active {
+    background-color: #E94C4C !important;
+}
+
+.btn.btn-sm, .btn-group-sm:hover > .btn:hover {
+    padding: 5px 0.4rem;
+    font-size: 14px;
+    border-radius: 0.2rem;
+    background-color:transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: 0 0 0 0.2rem #E94C4C;
+}
+
+.dark .experience .card-text p {
+    color: #3E3131 !important;
+}
+
+.dark pre {
+    border-color: #44475a;
+    color: #b65d5d;
+}
+
+.dark .experience .text-muted {
+    color: #3E3131 !important;
+    font-family: "Kosugi Maru";
+}
+
+.dark .experience .card-text {
+    color: #3E3131 !important;
+}
+
+.dark .card {
+    background: #CBCCB7;
+}
+
+.dark .portrait-title h2 {
+    font-family: "Kosugi Maru";
+    color: #E94C4C;
+}
+
+.experience .m-2 .border.exp-fill {
+    background-color: #301F9A !important;
+}
+
+.experience .m-2 .border, .experience .col.border-right {
+    border-color: #301F9A !important;
+}
+
+.dark h1 {
+    color: #3E3131;
+    font-family: "Kosugi Maru";
+}
+
+.dark .navbar {
+    background: #CBCCB7;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(238, 0, 0, 0.11);
+}
+
+.fas, .fa-search {
+    color: #E94C4C;
+}
+
+.dark #navbar-main .main-menu-item ul li .nav-link {
+    color: rgba(255, 73, 73, 0.8) !important;
+    font-family: "Kosugi Maru";
+    font-size: 1.1vw;
+}
+
+.dark .portrait-title h3 {
+    font-family: "Kosugi Maru";
+    color: #F17979
+}
+
+.kosugi-maru-regular {
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-icon {
+    color: #E94C4C;
+}
+
+.dark ul.share li a {
+    color: #E94C4C;
+}
+
+.dark ul.share li a:hover {
+    color: #E94C4C;
+    transition: none;
+    text-decoration: none;
+}
+
+.dark .fab:hover {
+    color: #3E3131;
+}
+
+.dark .ai:hover {
+    color: #3E3131;
+}
+
+.btn-primary:hover {
+    color: #000000;
+    background-color: #E94C4C;
+    border-color: #E94C4C;
+}
+
+.dark .see-all a:hover {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color:#3E3131;
+  }
