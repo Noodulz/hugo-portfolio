@@ -25,8 +25,8 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jdzng04
-  - icon: cv
-    icon_pack: ai
+  - icon: file
+    icon_pack: fa
     link: uploads/JD_CV.pdf
 
 # Highlight the author in author lists? (true/false)
