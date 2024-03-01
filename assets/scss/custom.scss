@@ -10,18 +10,18 @@
 
 body.dark {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 body.dark:hover {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
     transition:none;
 }
 
 .dark .author-card .card-title, .dark .author-card .card-title a {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .page-body {
@@ -31,7 +31,7 @@ body.dark:hover {
 
 .dark .author-card .card-subtitle {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .dark ul.network-icon:hover {
@@ -49,7 +49,7 @@ body.dark:hover {
 
 .card-simple .article-title, .media.stream-item .article-title {
     font-size: 1.2rem;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .card.h4 .card-text.h4 {
@@ -142,7 +142,7 @@ a, h3.article-title a:hover {
 
 .dark h3, .dark h4 {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .card .card-text a {
@@ -160,7 +160,7 @@ a, h3.article-title a:hover {
 
 .dark h2 {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .dark .page-subtitle {
@@ -199,12 +199,12 @@ p {
     background: #CBCCB7;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-out;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .btn-primary {
     background-color: #E94C4C;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
     border-color: #E94C4C;
 }
 
@@ -234,7 +234,7 @@ p {
 
 .dark .experience .text-muted {
     color: #3E3131 !important;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .dark .experience .card-text {
@@ -246,7 +246,7 @@ p {
 }
 
 .dark .portrait-title h2 {
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
     color: #E94C4C;
 }
 
@@ -260,7 +260,7 @@ p {
 
 .dark h1 {
     color: #3E3131;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .dark .navbar {
@@ -274,17 +274,17 @@ p {
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
     color: rgba(255, 73, 73, 0.8) !important;
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
     font-size: 1.1vw;
 }
 
 .dark .portrait-title h3 {
-    font-family: "Kosugi Maru";
+    font-family: "Kosugi Maru", Helvetica, Arial;
     color: #F17979
 }
 
 .kosugi-maru-regular {
-    font-family: "Kosugi Maru", sans-serif;
+    font-family: "Kosugi Maru", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
