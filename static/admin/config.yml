@@ -17,7 +17,7 @@ display_url: https://brilliant-empanada-4f0bb9.netlify.app
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'content/post'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
