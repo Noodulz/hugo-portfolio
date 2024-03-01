@@ -54,8 +54,8 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 
 ## Level 2
 
-* [TryHackMe's Zero to Hero Boxes Guide](https://blog.tryhackme.com/going-from-zero-to-hero/). There's a map for free members who can't or won't get the subscription, and a map for subscribed members. Personally I find this a much easier and similar alternative to HackTheBox, due to the numerous threads and hints and explanations in each of the boxes to help you understand concepts better. Though, it's best to keep practicing the concepts and exercises taught in the boxes as it can be so simple and easy to forget once you've finished a box.
-* [Heath Adam's Ethical Hacking Course (aka TheCyberMentor)](https://www.udemy.com/course/practical-ethical-hacking/). Assumes you're a beginner to ethical hacking and teaches you everything you need to know about penetration testing for web and other applications. Especially useful if you're interested in pursuing the OSCP in the future.
+* [TryHackMe's Zero to Hero Boxes Guide](https://github.com/SUNNYSAINI01001/TryHackMe_Zero_To_Hero_Path). There's a map for free members who can't or won't get the subscription, and a map for subscribed members. Personally I find this a much easier and similar alternative to HackTheBox, due to the numerous threads and hints and explanations in each of the boxes to help you understand concepts better. Though, it's best to keep practicing the concepts and exercises taught in the boxes as it can be so simple and easy to forget once you've finished a box.
+* [Heath Adam's Ethical Hacking Course (aka TheCyberMentor)](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course). Assumes you're a beginner to ethical hacking and teaches you everything you need to know about penetration testing for web and other applications. Especially useful if you're interested in pursuing the OSCP in the future.
 * [The Nightmare course](https://guyinatuxedo.github.io/) by my good friend guyinatuxedo. It is a comprehensive online book on getting into binary exploitation through exploring CTF challenges and various other real life examples. And one of the more beginner friendly guides for those interested in malware analysis and reverse engineering in the future.
 <br/><br/>
 ## Level 3
@@ -75,7 +75,7 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [Awesome Gameboy Dev](https://project-awesome.org/gbdev/awesome-gbdev) for learning emulation, reverse engineering, and assembly and C for building and reversing all things Gameboys.
 * [Cryptohack](https://cryptohack.org/), a relatively new and very astounding website which teaches you cryptography through programming exercises (highly recommend the use of Python for this). Starts off easy but gets exponentially harder as you progress.
 * [Trail of Bit's Guide on Forensics](https://trailofbits.github.io/ctf/forensics/). There's not much friendly guides on learning computer forensics out there for those who are interested, but this guide is about the only one I found that provides a comprehensive overview of how to approach forensics challenges for if you encounter one in CTFs.
-* [Systems Programming and Tools taught by Sanjiv Bhatia](http://www.cs.umsl.edu/\~sanjiv/classes/cs2750/), lectures and walkthroughs on programming in the Linux/Unix environment.
+* [Systems Programming and Tools taught by Sanjiv Bhatia](http://www.cs.umsl.edu/~sanjiv/classes/cs2750/), lectures and walkthroughs on programming in the Linux/Unix environment.
 <br/><br/>
 
 ## Some other fun sites to practice on
