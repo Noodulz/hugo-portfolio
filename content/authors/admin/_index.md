@@ -14,8 +14,8 @@ role: Graduate Researcher and Software Engineer
 
 interests:
   - Computer Graphics
-  - Convolutional Neural Networks
-  - Film Theory
+  - ML/Deep Learning
+  - Security
 
 social:
   - icon: github
@@ -32,7 +32,7 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi hi! Welcome to my page where I publish all my projects, devlogs, and publications. I am currently an ML Researcher and Software Engineer with 3+ years of experience in designing webpages, creating accessible features for clients, and programming things here and there. Currently, my research focus is in copyright in AI and detecting synthetically-made artwork with convolutional neural networks.
+Hi hi! Welcome to my page where I publish all my projects, devlogs, and publications. I am an ML Researcher and Software Engineer with 3+ years of experience in designing webpages, creating accessible features for clients, and programming things here and there. Currently my research focus is in copyright in AI and detecting synthetically-made artwork with convolutional neural networks.
 </br></br>
-My interests lie across many breadths of CS, from machine learning, computer graphics, to compilers and full-stack development. So I maintain this website to document my understanding of how things work, showcasing what I make as I go, and maybe some occasional random reviews and facts I find interesting :D
+My interests vary widely from machine learning, computer graphics, to compilers and full-stack development. So I maintain this site to document my understanding of how things work, showcasing what I make as I go, and maybe some occasional random reviews and facts I find interesting :D
 {style="text-align: justify;padding-top: 4.5vw; font-family: 'Kosugi Maru'"}

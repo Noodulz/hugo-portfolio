@@ -321,4 +321,14 @@ p {
     margin-top: 2rem;
     text-transform: uppercase;
     color:#3E3131;
-  }
+}
+
+@media screen and (max-width: 991.98px) {
+    .dark #navbar-main .main-menu-item ul li .nav-link {
+      font-size:4vw;
+    }
+    #navbar-main .main-menu-item .nav-item {
+        padding: 10px 15px !important;
+        background-color: #CBCCB7;
+    }
+}
