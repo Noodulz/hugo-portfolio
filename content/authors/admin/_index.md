@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jocelyn Dzuong
+title: Jocelyn
 
 # Full name (for SEO)
 first_name: Jocelyn
