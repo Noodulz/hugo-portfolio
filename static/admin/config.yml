@@ -18,10 +18,12 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
+    show_preview_links: true
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
+    preview_path: blog/{{slug}}
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
