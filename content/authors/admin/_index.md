@@ -12,11 +12,6 @@ superuser: true
 # Role/position/tagline
 role: Graduate Researcher and Software Engineer
 
-interests:
-  - Computer Graphics
-  - ML/Deep Learning
-  - Security
-
 social:
   - icon: github
     icon_pack: fab
