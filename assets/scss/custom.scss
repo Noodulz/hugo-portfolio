@@ -1,4 +1,11 @@
- article {
+@font-face {
+    font-family: 'Kosugi Maru';
+    src: url('/static/fonts/KosugiMaru-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+ 
+article {
     display: block;
     background-color: #CBCCB7;
  }
@@ -9,18 +16,18 @@
 }
 
 body.dark {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 body.dark:hover {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
     transition:none;
 }
 
 .dark .author-card .card-title, .dark .author-card .card-title a {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
@@ -30,7 +37,7 @@ body.dark:hover {
 }
 
 .dark .author-card .card-subtitle {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
@@ -44,7 +51,7 @@ body.dark:hover {
     margin: 0;
     text-decoration: none;
     transition: none;
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .card-simple .article-title, .media.stream-item .article-title {
@@ -58,7 +65,7 @@ body.dark:hover {
 }
 
 .dark .article-title a {
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .dark .article-title a:hover {
@@ -66,11 +73,11 @@ body.dark:hover {
 }
 
 .dark a strong:hover {
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .dark a.summary-link {
-  color: #3E3131;
+  color: #2a2400;
   text-decoration: none;
   transition: none;
 }
@@ -96,7 +103,7 @@ body.dark:hover {
 
 .dark .article-style a:hover {
     transition: none;
-    color: #3E3131;
+    color: #2a2400;
     text-decoration: underline;
 }
 
@@ -124,7 +131,7 @@ a, h3.article-title a:hover {
 }
 
 .article-title a {
-    color: #3E3131;
+    color: #2a2400;
     transition: color 0.6s ease;
       transition-property: color;
       transition-duration: 0.6s;
@@ -141,12 +148,12 @@ a, h3.article-title a:hover {
 }
 
 .dark h3, .dark h4 {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
 .card .card-text a {
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .dark .card-text p {
@@ -154,12 +161,12 @@ a, h3.article-title a:hover {
 }
 
 .btn-outline-primary {
-    color: #E94C4C;
-    border-color: #E94C4C;
+    color: #7d314c;
+    border-color: #7d314c;
 }
 
 .dark h2 {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
@@ -168,16 +175,16 @@ a, h3.article-title a:hover {
 }
 
 .btn-outline-primary:hover {
-    color: #E94C4C;
-    border-color: #E94C4C;
+    color: #7d314c;
+    border-color: #7d314c;
 }
 
 .card .btn:hover {
-    background-color: #E94C4C;
+    background-color: #7d314c;
 }
 
 .card .card-text a:hover {
-    color: #3E3131;
+    color: #2a2400;
     
 }
 
@@ -190,7 +197,7 @@ a, h3.article-title a:hover {
 }
 
 p {
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .card {
@@ -203,13 +210,13 @@ p {
 }
 
 .btn-primary {
-    background-color: #E94C4C;
+    background-color: #7d314c;
     font-family: "Kosugi Maru", Helvetica, Arial;
-    border-color: #E94C4C;
+    border-color: #7d314c;
 }
 
 .btn-toolbar .btn.btn-primary.active {
-    background-color: #E94C4C !important;
+    background-color: #7d314c !important;
 }
 
 
@@ -223,11 +230,11 @@ p {
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    background-color: #E94C4C;
+    background-color: #7d314c;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus {
-    box-shadow: 0 0 0 0.2rem #E94C4C;
+    box-shadow: 0 0 0 0.2rem #7d314c;
 }
 
 .dark .search-header {
@@ -249,13 +256,13 @@ p {
 }
 
 .btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus {
-    background-color: #E94C4C;
+    background-color: #7d314c;
     transform: none;
     text-decoration: none;    
 }
 
 .dark .experience .card-text p {
-    color: #3E3131 !important;
+    color: #2a2400 !important;
 }
 
 .dark pre {
@@ -264,7 +271,7 @@ p {
 }
 
 .dark .experience .text-muted {
-    color: #3E3131 !important;
+    color: #2a2400 !important;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
@@ -273,7 +280,7 @@ p {
 }
 
 .dark .experience .card-text {
-    color: #3E3131 !important;
+    color: #2a2400 !important;
 }
 
 .dark .card {
@@ -282,7 +289,7 @@ p {
 
 .dark .portrait-title h2 {
     font-family: "Kosugi Maru", Helvetica, Arial;
-    color: #E94C4C;
+    color: #7d314c;
 }
 
 .experience .m-2 .border.exp-fill {
@@ -294,7 +301,7 @@ p {
 }
 
 .dark h1 {
-    color: #3E3131;
+    color: #2a2400;
     font-family: "Kosugi Maru", Helvetica, Arial;
 }
 
@@ -304,11 +311,11 @@ p {
 }
 
 .fas, .fa-search {
-    color: #E94C4C;
+    color: #7d314c;
 }
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
-    color: rgba(255, 33, 33, 1.0) !important;
+    color: #7d314c !important;
     font-family: "Kosugi Maru", Helvetica, Arial;
     font-size: 1.2vw;
     letter-spacing: .13vw;
@@ -316,7 +323,7 @@ p {
 
 .dark .portrait-title h3 {
     font-family: "Kosugi Maru", Helvetica, Arial;
-    color: #F15151;
+    color: #7d314c;
 }
 
 .kosugi-maru-regular {
@@ -326,37 +333,41 @@ p {
 }
 
 .big-icon {
-    color: #E94C4C;
+    color: #7d314c;
 }
 
 .dark ul.share li a {
-    color: #E94C4C;
+    color: #7d314c;
 }
 
 .dark ul.share li a:hover {
-    color: #E94C4C;
+    color: #7d314c;
     transition: none;
     text-decoration: none;
 }
 
 .dark .fab:hover {
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .dark .ai:hover {
-    color: #3E3131;
+    color: #2a2400;
 }
 
 .btn-primary:hover {
     color: #000000;
-    background-color: #E94C4C;
-    border-color: #E94C4C;
+    background-color: #7d314c;
+    border-color: #7d314c;
+}
+
+.dark .btn-primary, .dark .btn.btn-primary.active {
+    color: #FFFFFF;
 }
 
 .dark .see-all a:hover {
     margin-top: 2rem;
     text-transform: uppercase;
-    color:#3E3131;
+    color:#2a2400;
 }
 
 @media screen and (max-width: 751px) and (max-width: 991.98px) {
