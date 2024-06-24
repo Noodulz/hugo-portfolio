@@ -47,6 +47,13 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
+  jupyter:
+    markup: "md"
+    kernel: "python3"
+    error_render: true
 related:
   threshold: 80
   includeNewer: true

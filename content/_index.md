@@ -10,6 +10,18 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  
+  - block: collection
+    id: notebooks
+    content:
+      title: Jupyter Notebooks
+      filters:
+        folders:
+          - notebooks
+    design:
+      view: compact
+      columns: '1'
+
   - block: portfolio
     id: projects
     content:
@@ -40,7 +52,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
