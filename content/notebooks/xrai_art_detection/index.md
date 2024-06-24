@@ -1,6 +1,9 @@
 ---
-title: Xrai Art Detection
+title: XRAI AI Art Detection
 date: '2024-06-24'
+summary: Creating a model that differentiates between human-made and AI-generated artwork using XRAI attributions.
+tags: ["Machine Learning"]
+categories: ["AI/ML", "Jupyter Notebooks"]
 ---
 Welcome to the StyleAIzed Detection project! This notebook documents the journey to create a model that can differentiate between human-made and AI-generated artwork. Here's a glimpse of the accomplishments and abilities of this notebook:
 
