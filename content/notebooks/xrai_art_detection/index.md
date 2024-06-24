@@ -10,6 +10,9 @@ categories: ["AI/ML", "Jupyter Notebooks"]
 links:
 url_code: 'https://github.com/Noodulz/XRAI-Art-Detection'
 url_dataset: 'https://www.kaggle.com/datasets/ravidussilva/real-ai-art'
+image:
+  focal_point: ""
+  preview_only: false
 ---
 Welcome to the StyleAIzed Detection project! This notebook documents the journey to create a model that can differentiate between human-made and AI-generated artwork. Here's a glimpse of the accomplishments and abilities of this notebook:
 

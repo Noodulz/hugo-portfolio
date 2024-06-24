@@ -230,7 +230,9 @@ p {
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    background-color: #7d314c;
+    background-color: #35259b;
+    color: white;
+    border-color: #35259b;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus {

@@ -15,9 +15,12 @@ sections:
     id: notebooks
     content:
       title: Jupyter Notebooks
+      text: ""
+      count: 5
       filters:
         folders:
           - notebooks
+        publication_type: 'article'
     design:
       view: compact
       columns: '1'
