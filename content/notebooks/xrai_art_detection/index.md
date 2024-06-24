@@ -1,9 +1,15 @@
 ---
 title: XRAI AI Art Detection
+authors:
+  - admin
 date: '2024-06-24'
 summary: Creating a model that differentiates between human-made and AI-generated artwork using XRAI attributions.
+publication_types: ["article"]
 tags: ["Machine Learning"]
 categories: ["AI/ML", "Jupyter Notebooks"]
+links:
+url_code: 'https://github.com/Noodulz/XRAI-Art-Detection'
+url_dataset: 'https://www.kaggle.com/datasets/ravidussilva/real-ai-art'
 ---
 Welcome to the StyleAIzed Detection project! This notebook documents the journey to create a model that can differentiate between human-made and AI-generated artwork. Here's a glimpse of the accomplishments and abilities of this notebook:
 
