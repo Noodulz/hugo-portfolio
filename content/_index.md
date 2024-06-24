@@ -20,10 +20,10 @@ sections:
       filters:
         folders:
           - notebooks
-        publication_type: 'article'
+        
     design:
       view: compact
-      columns: '1'
+      columns: '2'
 
   - block: portfolio
     id: projects

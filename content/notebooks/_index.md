@@ -1,5 +1,5 @@
 ```yaml
 ---
 title: Jupyter Notebooks
-view: 3
+view: 1
 ---

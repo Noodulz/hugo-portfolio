@@ -59,7 +59,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: ''
+    url: 'https://github.com/Noodulz/hugo-portfolio'
     content_dir: content
     branch: main
   avatar:
