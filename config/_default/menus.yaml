@@ -7,14 +7,14 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Notebooks
-    url: '#notebooks'
+  - name: Blog
+    url: '#posts'
     weight: 20
   - name: Projects
     url: '#projects'
     weight: 30
-  - name: Blog
-    url: '#posts'
+  - name: Notebooks
+    url: '#notebooks'
     weight: 40
 
 # Link to a PDF of your resume/CV from the menu.

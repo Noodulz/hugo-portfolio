@@ -10,20 +10,34 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  
+
   - block: collection
-    id: notebooks
+    id: posts
     content:
-      title: Jupyter Notebooks
-      text: ""
-      count: 5
+      title: Writings. Updates.
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 2
+      # Filter on criteria
       filters:
         folders:
-          - notebooks
-        
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
     design:
+      # Choose a layout view
       view: compact
-      columns: '2'
+      columns: '1'
 
   - block: portfolio
     id: projects
@@ -52,31 +66,19 @@ sections:
       view: masonry
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  
   - block: collection
-    id: posts
+    id: notebooks
     content:
-      title: Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 2
-      # Filter on criteria
+      title: Jupyter Notebooks
+      text: ""
+      count: 5
       filters:
         folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+          - notebooks
+        
     design:
-      # Choose a layout view
       view: compact
-      columns: '1'
+      columns: '2'
+
 ---

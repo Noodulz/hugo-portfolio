@@ -4,41 +4,48 @@
     font-weight: normal;
     font-style: normal;
 } 
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/static/fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
  
 article {
     display: block;
-    background-color: #CBCCB7;
+    background-color: #F7F7F7;
  }
  
  .dark .home-section {
-    background: #CBCCB7;
+    background: #F7F7F7;
     padding-top: 1rem;
 }
 
 body.dark {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 body.dark:hover {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
     transition:none;
 }
 
 .dark .author-card .card-title, .dark .author-card .card-title a {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .page-body {
     flex-grow: 1;
-    background-color: #CBCCB7;
+    background-color: #F7F7F7;
 }
 
 .dark .author-card .card-subtitle {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .dark ul.network-icon:hover {
@@ -56,7 +63,7 @@ body.dark:hover {
 
 .card-simple .article-title, .media.stream-item .article-title {
     font-size: 1.2rem;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .card.h4 .card-text.h4 {
@@ -140,7 +147,7 @@ a, h3.article-title a:hover {
   }
 
 .dark .home-section:nth-of-type(2n) {
-    background: #CBCCB7;
+    background: #F7F7F7;
 }
 
 .dark a, .dark h3.article-title a:hover {
@@ -149,7 +156,7 @@ a, h3.article-title a:hover {
 
 .dark h3, .dark h4 {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .card .card-text a {
@@ -167,7 +174,7 @@ a, h3.article-title a:hover {
 
 .dark h2 {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .dark .page-subtitle {
@@ -193,7 +200,7 @@ a, h3.article-title a:hover {
 }
 
 .page-footer {
-    background-color: #CBCCB7;
+    background-color: #F7F7F7;
 }
 
 p {
@@ -203,15 +210,15 @@ p {
 .card {
     overflow: hidden;
     text-overflow: ellipsis;
-    background: #CBCCB7;
+    background: #F7F7F7;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-out;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .btn-primary {
     background-color: #7d314c;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
     border-color: #7d314c;
 }
 
@@ -240,7 +247,7 @@ p {
 }
 
 .dark .search-header {
-    background-color: #CBCCB7;
+    background-color: #F7F7F7;
 }
 
 #search-box:active {
@@ -254,7 +261,7 @@ p {
 }
 
 .dark .search-modal {
-    background-color: #CBCCB7;
+    background-color: #F7F7F7;
 }
 
 .btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus {
@@ -274,7 +281,7 @@ p {
 
 .dark .experience .text-muted {
     color: #2a2400 !important;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .dark .text-muted {
@@ -286,11 +293,11 @@ p {
 }
 
 .dark .card {
-    background: #CBCCB7;
+    background: #F7F7F7;
 }
 
 .dark .portrait-title h2 {
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
     color: #7d314c;
 }
 
@@ -304,11 +311,11 @@ p {
 
 .dark h1 {
     color: #2a2400;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
 }
 
 .dark .navbar {
-    background: #CBCCB7;
+    background: #F7F7F7;
     box-shadow: 0 0.125rem 0.25rem 0 rgba(238, 0, 0, 0.11);
 }
 
@@ -318,18 +325,18 @@ p {
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
     color: #7d314c !important;
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
     font-size: 1.2vw;
     letter-spacing: .13vw;
 }
 
 .dark .portrait-title h3 {
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
     color: #7d314c;
 }
 
 .kosugi-maru-regular {
-    font-family: 'Kosugi Maru', 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Consolas', 'Courier New', monospace;
     font-weight: 400;
     font-style: normal;
 }
@@ -379,7 +386,7 @@ p {
     }
     #navbar-main .main-menu-item .nav-item {
         padding: 10px 15px !important;
-        background-color: #CBCCB7;
+        background-color: #F7F7F7;
     }
 }
 
@@ -390,10 +397,10 @@ p {
     }
     #navbar-main .main-menu-item .nav-item {
         padding: 10px 15px !important;
-        background-color: #CBCCB7;
+        background-color: #F7F7F7;
     }
     .dark .navbar-collapse {
-      background-color: #CBCCB7;
+      background-color: #F7F7F7;
     }
 }
 
@@ -404,7 +411,7 @@ p {
     }
     #navbar-main .main-menu-item .nav-item {
         padding: 10px 15px !important;
-        background-color: #CBCCB7;
+        background-color: #F7F7F7;
     }
 }
 
@@ -415,6 +422,6 @@ p {
     }
     #navbar-main .main-menu-item .nav-item {
         padding: 10px 15px !important;
-        background-color: #CBCCB7;
+        background-color: #F7F7F7;
     }
 }
