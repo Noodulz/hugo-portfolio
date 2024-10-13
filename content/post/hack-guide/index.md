@@ -81,7 +81,6 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 ## Some other fun sites to practice on
 
 * [HackThisSite!](https://hackthissite.org) in case Hellbound Hackers is being wonky
-* [Enigma Group](https://www.enigmagroup.org/). Yet another web security training site but also I love the Alan Turing reference.
 * [Try2Hack](http://www.try2hack.nl/)
 * [picoCTF](https://picoctf.com/). High school based CTF but also fun for beginners as well. Also great in exploring what topics you may be specifically interested in.
 * [HackNet](https://store.steampowered.com/app/365450/Hacknet/), just a really fun hacking simulator, one of the few accurate ones out there as well.
